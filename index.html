@@ -1,274 +1,547 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
 <meta name="viewport" content="width=device-width"/>
+
 <title>Haven at Reunion</title>
 
+
+
 <style type="text/css">
+
 /*////// RESET STYLES //////*/
+
 body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;}
+
 table{border-collapse:collapse;}
+
 img, a img{border:0; outline:none; text-decoration:none;}
+
 h1, h2, h3, h4, h5, h6{margin:0; padding:0;}
+
 p{margin: 1em 0;}
 
+
+
 /*////// CLIENT-SPECIFIC STYLES //////*/
+
 .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail/Outlook.com to display emails at full width. */
+
 .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div{line-height:100%;} /* Force Hotmail/Outlook.com to display line heights normally. */
+
 table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up. */
+
 #outlook a{padding:0;} /* Force Outlook 2007 and up to provide a "view in browser" message. */
+
 img{-ms-interpolation-mode: bicubic;} /* Force IE to smoothly render resized images. */
+
 body, table, td, p, a, li, blockquote{-ms-text-size-adjust:100%; -webkit-text-size-adjust:100%;} /* Prevent Windows- and Webkit-based mobile platforms from changing declared text sizes. */
 
+
+
 /*////// FRAMEWORK STYLES //////*/
+
 .flexibleContainerCell{padding-top:20px; padding-Right:20px; padding-Left:20px;}
+
 .flexibleImage{height:auto;}
+
 .bottomShim{padding-bottom:20px;}
+
 .imageContent, .imageContentLast{padding-bottom:20px;}
+
 .nestedContainerCell{padding-top:20px; padding-Right:20px; padding-Left:20px;}
 
+
+
 /*////// GENERAL STYLES //////*/
+
 body, #bodyTable{background-color:#F5F5F5;}
+
 #bodyCell{padding-top:40px; padding-bottom:40px;}
+
 #emailBody{background-color:#FFFFFF; border:1px solid #DDDDDD; border-collapse:separate; border-radius:4px;}
+
 h1, h2, h3, h4, h5, h6{color:#202020; font-family:Helvetica; font-size:20px; line-height:125%; text-align:Left;}
+
 .textContent, .textContentLast{color:#404040; font-family:Helvetica; font-size:16px; line-height:125%; text-align:Left; padding-bottom:20px;}
+
 .textContent a, .textContentLast a{color:#2C9AB7; text-decoration:underline;}
+
 .nestedContainer{background-color:#E5E5E5; border:1px solid #CCCCCC;}
+
 .emailButton{background-color:#2C9AB7; border-collapse:separate; border-radius:4px;}
+
 .buttonContent{color:#FFFFFF; font-family:Helvetica; font-size:18px; font-weight:bold; line-height:100%; padding:15px; text-align:center;}
+
 .buttonContent a{color:#FFFFFF; display:block; text-decoration:none;}
+
 .emailCalendar{background-color:#FFFFFF; border:1px solid #CCCCCC;}
+
 .emailCalendarMonth{background-color:#2C9AB7; color:#FFFFFF; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:bold; padding-top:10px; padding-bottom:10px; text-align:center;}
+
 .emailCalendarDay{color:#2C9AB7; font-family:Helvetica, Arial, sans-serif; font-size:60px; font-weight:bold; line-height:100%; padding-top:20px; padding-bottom:20px; text-align:center;}
 
+
+
 /*////// MOBILE STYLES //////*/
+
 @media only screen and (max-width: 480px){			
+
 /*////// CLIENT-SPECIFIC STYLES //////*/
+
 body{width:100% !important; min-width:100% !important;} /* Force iOS Mail to render the email at full width. */
 
+
+
 /*////// FRAMEWORK STYLES //////*/
+
 /*
+
 CSS selectors are written in attribute
+
 selector format to prevent Yahoo Mail
+
 from rendering media query styles on
+
 desktop.
+
 */
+
 table[id="emailBody"], table[class="flexibleContainer"]{width:100% !important;}
 
-/*
-The following style rule makes any
-image classed with 'flexibleImage'
-fluid when the query activates.
-Make sure you add an inline max-width
-to those images to prevent them
-from blowing out. 
-*/
-img[class="flexibleImage"]{height:auto !important; width:100% !important;}
+
 
 /*
-Make buttons in the email span the
-full width of their container, allowing
-for left- or right-handed ease of use.
+
+The following style rule makes any
+
+image classed with 'flexibleImage'
+
+fluid when the query activates.
+
+Make sure you add an inline max-width
+
+to those images to prevent them
+
+from blowing out. 
+
 */
+
+img[class="flexibleImage"]{height:auto !important; width:100% !important;}
+
+
+
+/*
+
+Make buttons in the email span the
+
+full width of their container, allowing
+
+for left- or right-handed ease of use.
+
+*/
+
 td[class="buttonContent"]{padding:0 !important;}
+
 td[class="buttonContent"] a{padding:15px !important;}
+
+
 
 td[class="textContentLast"], td[class="imageContentLast"]{padding-top:20px !important;}
 
+
+
 /*////// GENERAL STYLES //////*/
+
 td[id="bodyCell"]{padding-top:10px !important; padding-Right:10px !important; padding-Left:10px !important;}
+
 }
+
 </style>
+
 </head>
+
 <body>
+
 <center>
 
+
+
 <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+
 <tr>
+
 <td align="center" valign="top" id="bodyCell"> 
+
 <table border="0" cellpadding="0" cellspacing="0" width="600" id="emailBody"><!-- // EMAIL CONTAINER -->
 
 
 
+
+
+
+
 <tr><!-- // START TABLE ROW HEADER -->
+
 <td align="center" valign="top">
+
+
 
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
+
 <tr>
+
 <td align="center" valign="top">
 
+
+
 <table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+
 <tr>
+
 <td align="center" valign="top" width="600" class="flexibleContainerCell" style="padding-top:0px;padding-Left:0px;padding-Right:0px;" >
 
 
 
+
+
+
+
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
+
 <tr>
+
 <td valign="top" class="textContent" style="border-bottom:0px;line-height:0px" >
-<img src="https://preview.ibb.co/fKH3n9/Header_Image.png" width="600" height="317" style="height:317px;max-height:317px;width:600px;max-width:600px;" alt="" />
+
+<img src="https://preview.ibb.co/iPs1S9/Header_Image.png" width="600" height="317" style="height:317px;max-height:317px;width:600px;max-width:600px;" alt="" />
+
 </td>
+
 </tr>
+
 </table>
 
 
+
+
+
 </td>
+
 </tr>
+
 </table>
+
 </td>
+
 </tr>
+
 </table>
+
 </td>
+
 </tr><!-- // END TABLE ROW HEADER -->
+
+
+
+
+
 
 
 
 
 <tr><!-- // START TABLE ROW TEXT CONTAINER -->
+
 <td align="center" valign="top">
+
+
 
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
+
 <tr>
+
 <td align="center" valign="top">
 
+
+
 <table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+
 <tr>
+
 <td align="center" valign="top" width="600" class="flexibleContainerCell">
 
 
 
+
+
+
+
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
+
 <tr>
+
 <td valign="top" class="textContent" style="text-align:center;font-size:42px;color:#322C28;" >
+
 ARRIVING EARLY 2019
+
 </td>
+
 </tr>
+
 <tr>
+
 <td valign="top" class="textContent" style="text-align:center;font-size:14px;color:#322C28;line-height: 26px;" >
+
 Uga. Uga. Ita quam fugia vitaturio. Nem res et que porum atis earchiti dempori bearuntur sit
+
 facepudae vel endipit denet odiciam, cum voluptam faccatem eosti volupta eceati vid eliqui
+
 acearum nus aut vere aligene et vel eos resequam quo moloreperias molumquam quas senis ut
+
 hitatios et officid elibus rest autemod ionsectur?
+
 </td>
+
 </tr>
+
+
 
 </table>
 
 
+
+
+
 </td>
+
 </tr>
+
 </table>
+
 </td>
+
 </tr>
+
 </table>
+
 </td>
+
 </tr><!-- // END TABLE ROW TEXT CONTAINER -->
 
 
 
 
+
+
+
+
+
 <tr><!-- // START TABLE ROW IMAGES CONTAINER -->
+
 <td align="center" valign="top">
+
+
 
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
+
 <tr>
+
 <td align="center" valign="top">
 
+
+
 <table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+
 <tr>
+
 <td align="center" valign="top" width="600" class="flexibleContainerCell" style="padding-Left:0px;padding-Right:0px;" >
 
 
 
+
+
+
+
 <table border="0" cellpadding="0" cellspacing="0" width="100%"><!-- // START TABLE HEADER -->
+
 <tr>
+
 <td valign="top" class="textContent">
+
 <img src="https://image.ibb.co/ktCSVU/Image001.png" width="195" height="144" style="height:144px;max-height:144px;width:195px;max-width:195px;" alt="" />
-</td>
-<td valign="top" class="textContent" style="text-align:center;" >
-<img src="https://image.ibb.co/hnF34p/Image002.png" width="195" height="144" style="height:144px;max-height:144px;width:195px;max-width:195px;" alt="" />
-</td>
-<td valign="top" class="textContent" style="text-align:right;" >
-<img src="https://image.ibb.co/cos5H9/Image003.png" width="195" height="144" style="height:144px;max-height:144px;width:195px;max-width:195px;" alt="" />
+
 </td>
 
+<td valign="top" class="textContent" style="text-align:center;" >
+
+<img src="https://image.ibb.co/hnF34p/Image002.png" width="195" height="144" style="height:144px;max-height:144px;width:195px;max-width:195px;" alt="" />
+
+</td>
+
+<td valign="top" class="textContent" style="text-align:right;" >
+
+<img src="https://image.ibb.co/cos5H9/Image003.png" width="195" height="144" style="height:144px;max-height:144px;width:195px;max-width:195px;" alt="" />
+
+</td>
+
+
+
 </tr>
+
 </table><!-- // END TABLE ROW IMAGES CONTAINER -->
 
 
+
+
+
 </td>
+
 </tr>
+
 </table>
+
 </td>
+
 </tr>
+
 </table>
+
 </td>
+
 </tr><!-- // END TABLE ROW HEADER -->
 
 
 
 
+
+
+
+
+
 <tr><!-- // START TABLE ROW FOOTER -->
+
 <td align="center" valign="top">
+
+
 
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
+
 <tr>
+
 <td align="center" valign="top">
 
+
+
 <table border="0" cellpadding="0" cellspacing="0" width="600" class="flexibleContainer">
+
 <tr>
+
 <td align="center" valign="top" width="600" class="flexibleContainerCell" style="padding-top:0px;" >
 
 
 
+
+
+
+
 <table border="0" cellpadding="0" cellspacing="0" width="100%"><!-- // BOTTOM TABLE -->
+
 <tr>
+
 <td valign="top" class="textContent" style="text-align:center;font-size:12px;"  >
+
 7995 HAVEN WAY
-</td>
-<td valign="top" class="textContent" style="text-align:center;font-size:12px;"  >
-| 
-</td>
-<td valign="top" class="textContent" style="text-align:center;font-size:12px;"  >
-KISSIMMEE, FL 34747  
-</td>
-<td valign="top" class="textContent" style="text-align:center;font-size:12px;"  >
-|   
-</td>
-<td valign="top" class="textContent" style="text-align:center;font-size:12px;"  >
-&nbsp;&nbsp;404.111.2222&nbsp;&nbsp;   
-</td>
-<td valign="top" class="textContent" style="text-align:center;font-size:12px;"  >
-|    
-</td>
-<td valign="top" class="textContent" style="text-align:center;font-size:12px;"  >
-<a href="http://HAVENATREUNION.COM" style="color:#DAAB28;font-weight:bold;text-decoration:none;">
-HAVENATREUNION.COM  
-</a> 
+
 </td>
 
+<td valign="top" class="textContent" style="text-align:center;font-size:12px;"  >
+
+| 
+
+</td>
+
+<td valign="top" class="textContent" style="text-align:center;font-size:12px;"  >
+
+KISSIMMEE, FL 34747  
+
+</td>
+
+<td valign="top" class="textContent" style="text-align:center;font-size:12px;"  >
+
+|   
+
+</td>
+
+<td valign="top" class="textContent" style="text-align:center;font-size:12px;"  >
+
+&nbsp;&nbsp;404.111.2222&nbsp;&nbsp;   
+
+</td>
+
+<td valign="top" class="textContent" style="text-align:center;font-size:12px;"  >
+
+|    
+
+</td>
+
+<td valign="top" class="textContent" style="text-align:center;font-size:12px;"  >
+
+<a href="http://HAVENATREUNION.COM" style="color:#DAAB28;font-weight:bold;text-decoration:none;">
+
+HAVENATREUNION.COM  
+
+</a> 
+
+</td>
+
+
+
 </tr>
+
 </table><!-- // BOTTOM TABLE -->
 
 
+
+
+
 </td>
+
 </tr>
+
 </table>
+
 </td>
+
 </tr>
+
 </table>
+
 </td>
+
 </tr><!-- // END TABLE ROW FOOTER -->
 
 
 
+
+
+
+
 </table>
+
 <!-- // EMAIL CONTAINER -->
+
 </td>
+
 </tr>
+
 </table>
+
 </center>
+
 </body>
+
 </html>
